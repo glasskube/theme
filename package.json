@@ -11,8 +11,13 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "index.scss",
+    "scss/**/*.scss"
+  ],
   "scripts": {
-    "build": "node esbuild.mjs"
+    "build": "node esbuild.mjs",
+    "release": "release-it"
   },
   "sass": "index.scss",
   "dependencies": {
