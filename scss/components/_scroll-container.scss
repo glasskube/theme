@@ -1,0 +1,9 @@
+@media (pointer: coarse) {
+  .container-scroll {
+    overflow-x: scroll !important;
+  }
+
+  .row-scroll {
+    flex-wrap: nowrap !important;
+  }
+}

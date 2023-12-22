@@ -1,0 +1,11 @@
+.cta {
+  @extend .btn;
+  @extend .btn-accent;
+  font-family: $font-family-display;
+}
+
+@each $size in ("sm", "lg") {
+  .cta-#{$size} {
+    @extend .btn-#{$size};
+  }
+}

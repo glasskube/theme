@@ -1,0 +1,7 @@
+.flippable {
+  transition: transform 350ms;
+}
+
+.flipped-x {
+  transform: rotateX(180deg);
+}

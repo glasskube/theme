@@ -1,0 +1,29 @@
+{
+  "name": "@glasskube/theme",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "The official Glasskube Theme",
+  "homepage": "https://www.glasskube.eu/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glasskube/theme.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "node esbuild.mjs"
+  },
+  "sass": "index.scss",
+  "dependencies": {
+    "bootstrap": "5.3.2"
+  },
+  "devDependencies": {
+    "release-it": "17.0.0",
+    "esbuild": "0.19.10",
+    "esbuild-sass-plugin": "2.16.1"
+  },
+  "volta": {
+    "node": "20.10.0"
+  }
+}

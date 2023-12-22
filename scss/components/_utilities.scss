@@ -1,0 +1,31 @@
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-justified {
+  text-align: justify;
+
+  h1, h2, h3, h4, h5, h6, li {
+    text-align: initial;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  a {
+    padding-inline-start: 0.6rem;
+    display: none;
+    text-decoration: none;
+  }
+
+  &:hover a {
+    display: inline;
+  }
+}
+
+.text-hyphens {
+  hyphens: auto;
+}

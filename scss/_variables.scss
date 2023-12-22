@@ -1,0 +1,63 @@
+$main-1: #0c263b;
+$main-2: #174c76;
+$main-3: #00b5eb;
+$main-light: #ebf8fb; // $main-3 with 7% opacity
+$grey-0: #101010;
+$grey-7: #fbfbfb;
+$red: #ff4136;
+$pink: #e03466;
+
+$font-family-main: Inter, system-ui, sans-serif !default;
+$font-family-display: Inter, system-ui, sans-serif !default;
+
+/* Currently unused. These will probably be removed in the future. */
+$cube-1: #63c5e3;
+$cube-2: #0f498f;
+$cube-3: #3169b1;
+$cube-4: #4d92cf;
+$blue-grey-1: #EBFAFE;
+$blue-grey-2: #EAEFF1;
+$blue-3: #09BAEE;
+$blue-7: #C0EDFB;
+
+/* Override Bootstrap color definitions */
+$black: $grey-0;
+
+/* Override Bootstrap theme colors */
+
+$primary: $main-3;
+$secondary: $main-2;
+$accent: $pink;
+$danger: $red;
+$dark: $main-1;
+$light: $main-light;
+
+// Bootstrap overrides and generic aliases
+$spacer: 2rem;
+$border-width: 2px;
+
+$body-color: $black;
+
+$min-contrast-ratio: 2;
+
+$font-family-base: $font-family-main;
+$font-weight-bolder: 600;
+
+$headings-font-family: $font-family-display;
+$headings-font-weight: 700;
+$headings-color: $secondary;
+
+$navbar-dark-color: rgba($light, 0.85);
+$navbar-dark-hover-color: var(--bs-white);
+$navbar-dark-active-color: var(--bs-white);
+
+$btn-font-weight: 700;
+$btn-padding-x: 1.5rem;
+$btn-padding-y: .75rem;
+$btn-padding-x-sm: 1.5rem;
+$btn-padding-y-sm: 0.375rem;
+
+$alert-padding-x: 1rem;
+$alert-padding-y: 1rem;
+
+$modal-inner-padding: 1rem;

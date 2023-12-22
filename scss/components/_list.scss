@@ -1,0 +1,12 @@
+ul:not(.dropdown-menu, .navbar-nav, .list-unstyled, .list-inline) {
+  list-style: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzFfMikiPgo8Y2lyY2xlIGN4PSI2IiBjeT0iNiIgcj0iNiIgZmlsbD0iIzAwQjVFQiIgZmlsbC1vcGFjaXR5PSIwLjE1Ii8+CjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSIzIiBmaWxsPSIjMDBCNUVCIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMV8yIj4KPHJlY3Qgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=');
+
+  &,
+  ol {
+    padding-inline-start: 32px;
+
+    &>li {
+      padding-inline-start: 8px;
+    }
+  }
+}

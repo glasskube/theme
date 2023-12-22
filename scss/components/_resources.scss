@@ -1,0 +1,30 @@
+.prose-content {
+  h2 {
+    margin-top: 3rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+
+  p {
+    line-height: 1.7rem;
+  }
+
+  blockquote {
+    border-left: 0.4rem solid $primary;
+    padding-left: 1rem;
+    margin: 2rem 0;
+  }
+
+  pre {
+    background: $grey-7;
+    padding: 1.4rem;
+    @include card-shadow;
+  }
+
+  code {
+    background: $grey-7;
+    color: $secondary;
+  }
+}

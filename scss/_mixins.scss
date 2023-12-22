@@ -1,0 +1,4 @@
+// Drop shadow to be used on cards and similar elements
+@mixin card-shadow() {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,32 @@
+#card-elevated-base {
+  @extend .rounded-2;
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+.card-elevated {
+  @extend #card-elevated-base;
+  display: block;
+  width: 100%;
+  border: 2px solid var(--card-elevated-color, var(--bs-primary));
+  box-shadow: var(--card-elevated-color, var(--bs-primary)) -0.4rem 0.4rem 0 0;
+}
+
+.card-elevated-hover {
+  @extend #card-elevated-base;
+
+  &:hover {
+    transform: scale(1.005);
+    transform-origin: center;
+    box-shadow: var(--card-elevated-color, var(--bs-primary)) -0.8rem 0.8rem 0 0;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .card-elevated-#{$color} {
+    --card-elevated-color: #{$value};
+  }
+}
+
+a.card-elevated {
+  text-decoration: none;
+}
