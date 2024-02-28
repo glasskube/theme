@@ -1,0 +1,5 @@
+.nav-link-underline.active {
+  @extend .border-bottom;
+  @extend .border-primary;
+  @extend .border-4;
+}
