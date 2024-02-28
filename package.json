@@ -12,12 +12,13 @@
   },
   "files": [
     "index.scss",
-    "scss/**/*.scss"
+    "scss/**/*.scss",
+    "dist/"
   ],
   "scripts": {
-    "css-compile": "sass --embed-sources --load-path node_modules index.scss:dist/theme.css",
+    "css-compile": "sass --embed-sources --load-path node_modules prebuilt/theme.scss:dist/theme.css",
     "css-bundle": "esbuild dist/*.css --bundle --minify --loader:.woff=file --loader:.woff2=file --out-extension:.css=.min.css --outdir=dist",
-    "build": "node esbuild.mjs",
+    "build": "rm -rf dist && npm run css-compile && npm run css-bundle",
     "release": "release-it"
   },
   "sass": "index.scss",
@@ -29,7 +30,8 @@
   "devDependencies": {
     "release-it": "17.0.0",
     "esbuild": "0.19.10",
-    "sass": "1.69.7"
+    "sass": "1.69.7",
+    "bootstrap-icons": "1.11.3"
   },
   "volta": {
     "node": "20.10.0"
