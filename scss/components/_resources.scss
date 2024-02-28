@@ -1,3 +1,13 @@
+:root {
+  --prose-primary: #{$gk-primary-light};
+  --prose-bg: #{$gk-bg-light};
+}
+
+@include color-mode(dark) {
+  --prose-primary: #{$gk-primary-dark};
+  --prose-bg: #{$gk-bg-dark};
+}
+
 .prose-content {
   h2 {
     margin-top: 3rem;
@@ -12,19 +22,19 @@
   }
 
   blockquote {
-    border-left: 0.4rem solid $primary;
+    border-left: 0.4rem solid var(--prose-primary);
     padding-left: 1rem;
     margin: 2rem 0;
   }
 
   pre {
-    background: $grey-7;
+    background: var(--prose-bg);
     padding: 1.4rem;
     @include card-shadow;
   }
 
   code {
-    background: $grey-7;
-    color: $secondary;
+    background: var(--prose-bg);
+    color: var(--prose-primary);
   }
 }
