@@ -50,6 +50,6 @@
     "defaultIgnores": false
   },
   "volta": {
-    "node": "20.10.0"
+    "node": "20.11.1"
   }
 }
