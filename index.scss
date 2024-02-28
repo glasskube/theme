@@ -63,9 +63,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 8. Add additional custom code here
 @import "scss/components/anminations";
-@import "scss/components/list";
 @import "scss/components/card-elevated";
 @import "scss/components/cta";
+@import "scss/components/forms";
+@import "scss/components/list";
 @import "scss/components/resources";
 @import "scss/components/scroll-container";
 @import "scss/components/utilities";
