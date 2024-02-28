@@ -18,8 +18,7 @@
   "scripts": {
     "css-compile": "sass --embed-sources --load-path node_modules prebuilt/theme.scss:dist/theme.css",
     "css-bundle": "esbuild dist/*.css --bundle --minify --loader:.woff=file --loader:.woff2=file --out-extension:.css=.min.css --outdir=dist",
-    "build": "rm -rf dist && npm run css-compile && npm run css-bundle",
-    "release": "release-it"
+    "build": "rm -rf dist && npm run css-compile && npm run css-bundle"
   },
   "sass": "index.scss",
   "dependencies": {
@@ -31,7 +30,6 @@
     "bootstrap-icons": "1.11.3",
     "esbuild": "0.19.10",
     "prettier": "3.2.5",
-    "release-it": "17.0.0",
     "sass": "1.69.7"
   },
   "volta": {
