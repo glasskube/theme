@@ -12,7 +12,7 @@
 // 4. Include any default map overrides here
 
 $custom-colors: (
-  "accent": $accent
+  "accent": $accent,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
@@ -69,7 +69,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "scss/components/resources";
 @import "scss/components/scroll-container";
 @import "scss/components/utilities";
-
 
 // 9. Import fonts
 @import "@fontsource/inter/latin-300.css";

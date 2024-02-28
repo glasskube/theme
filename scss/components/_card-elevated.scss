@@ -1,6 +1,9 @@
 #card-elevated-base {
   @extend .rounded-2;
-  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out, background-color 200ms ease-in-out;
+  transition:
+    box-shadow 200ms ease-in-out,
+    transform 200ms ease-in-out,
+    background-color 200ms ease-in-out;
 }
 
 .card-elevated {
