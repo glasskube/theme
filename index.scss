@@ -67,6 +67,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "scss/components/cta";
 @import "scss/components/forms";
 @import "scss/components/list";
+@import "scss/components/nav";
 @import "scss/components/resources";
 @import "scss/components/scroll-container";
 @import "scss/components/utilities";
