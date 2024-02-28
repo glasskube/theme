@@ -1,42 +1,50 @@
-$main-1: #0c263b;
-$main-2: #174c76;
-$main-3: #00b5eb;
-$main-light: #ebf8fb; // $main-3 with 7% opacity
-$grey-0: #101010;
-$grey-7: #fbfbfb;
-$red: #ff4136;
-$pink: #e03466;
-
 $font-family-main: Inter, system-ui, sans-serif !default;
 $font-family-display: Poppins, Inter, system-ui, sans-serif !default;
 
-/* Currently unused. These will probably be removed in the future. */
-$cube-1: #63c5e3;
-$cube-2: #0f498f;
-$cube-3: #3169b1;
-$cube-4: #4d92cf;
-$blue-grey-1: #EBFAFE;
-$blue-grey-2: #EAEFF1;
-$blue-3: #09BAEE;
-$blue-7: #C0EDFB;
+$gk-bg-light: #edf4f5;
+$gk-surface-light: #f7fbfc;
+$gk-fg-light: #101010;
+$gk-primary-light: #00b5eb;
+$gk-secondary-light: #174c76;
+$gk-accent-light: #e03466;
+$gk-success-light: #33b73b;
+$gk-danger-light: #ff4136;
+
+$gk-bg-dark: #0f1a24;
+$gk-surface-dark: #1f2933;
+$gk-fg-dark: #e0e0e0;
+$gk-primary-dark: #3386a6;
+$gk-secondary-dark: #1d4165;
+$gk-accent-dark: #e04c68;
+$gk-success-dark: #70a957;
 
 /* Override Bootstrap color definitions */
-$black: $grey-0;
+$black: $gk-bg-dark;
+$white: $gk-bg-light;
 
 /* Override Bootstrap theme colors */
 
-$primary: $main-3;
-$secondary: $main-2;
-$accent: $pink;
-$danger: $red;
-$dark: $main-1;
-$light: $main-light;
+$primary: $gk-primary-light;
+$secondary: $gk-secondary-light;
+$accent: $gk-accent-light;
+$info: $gk-primary-light;
+$success: $gk-success-light;
+$danger: $gk-danger-light;
+$dark: $gk-surface-dark;
+$light: $gk-surface-light;
 
 // Bootstrap overrides and generic aliases
 $spacer: 2rem;
 $border-width: 2px;
 
-$body-color: $black;
+$body-bg: $gk-bg-light;
+$body-bg-dark: $gk-bg-dark;
+$body-secondary-bg: $gk-surface-light;
+$body-secondary-bg-dark: $gk-surface-dark;
+$body-tertiary-bg: $gk-surface-light;
+$body-tertiary-bg-dark: $gk-surface-dark;
+$body-color: $gk-fg-light;
+$body-color-dark: $gk-fg-dark;
 
 $min-contrast-ratio: 2;
 
@@ -45,11 +53,12 @@ $font-weight-bolder: 600;
 
 $headings-font-family: $font-family-display;
 $headings-font-weight: 700;
-$headings-color: $secondary;
+$headings-color: $gk-secondary-light;
+$headings-color-dark: $gk-primary-dark;
 
-$navbar-dark-color: rgba($light, 0.85);
-$navbar-dark-hover-color: var(--bs-white);
-$navbar-dark-active-color: var(--bs-white);
+$navbar-dark-color: rgba($gk-fg-dark, 0.85);
+$navbar-dark-hover-color: $gk-fg-dark;
+$navbar-dark-active-color: $gk-fg-dark;
 
 $btn-font-weight: 700;
 $btn-padding-x: 1.5rem;
