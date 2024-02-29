@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "The official Glasskube Theme",
   "homepage": "https://www.glasskube.eu/",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/glasskube/theme.git"
