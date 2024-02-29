@@ -132,7 +132,7 @@ https://getbootstrap.com/docs/5.3/examples/
     </symbol>
   </svg>
 
-  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle" style="z-index: 1000;">
     <button class="btn btn-accent p-1 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
       aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
       <i id="theme-icon" class="bi bi-circle-half me-2 opacity-50"></i>
@@ -182,6 +182,10 @@ https://getbootstrap.com/docs/5.3/examples/
 
   <main>
     <div class="container">
+
+      <!-------------------------------------------------------------------------------
+                                          BUTTONS
+      -------------------------------------------------------------------------------->
 
       <div class="d-flex gap-2 justify-content-center py-5">
         <button class="btn btn-primary rounded-pill px-3" type="button">Primary</button>
@@ -266,7 +270,40 @@ https://getbootstrap.com/docs/5.3/examples/
         </button>
       </div>
 
+
       <hr>
+
+      <!-------------------------------------------------------------------------------
+                                            MODAL
+      -------------------------------------------------------------------------------->
+
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-------------------------------------------------------------------------------
+                                       CHECKS, RADIOS
+      -------------------------------------------------------------------------------->
 
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -294,6 +331,11 @@ https://getbootstrap.com/docs/5.3/examples/
       </div>
 
       <hr>
+
+
+      <!-------------------------------------------------------------------------------
+                                           NAVBAR
+      -------------------------------------------------------------------------------->
 
       <h1 class="visually-hidden">Headers examples</h1>
 
