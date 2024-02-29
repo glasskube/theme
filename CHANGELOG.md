@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.1](https://github.com/glasskube/theme/compare/v0.1.0...v0.1.1) (2024-02-29)
+
+
+### Features
+
+* add nav-link-underline ([1253463](https://github.com/glasskube/theme/commit/1253463cefc1578fc1db3648dc18c32603a349c1))
+
+
+### Bug Fixes
+
+* change modal bg to surface ([13f58a7](https://github.com/glasskube/theme/commit/13f58a7c8a250bd9150a54171367bad18298a1cf))
+
 ## 0.1.0 (2024-02-28)
 
 
