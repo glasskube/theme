@@ -26,12 +26,11 @@ Used by the [Glasskube package manager](https://github.com/glasskube/glasskube/)
 
 ## Installation
 
-The Glasskube theme is published as an NPM package via GitHub package registry. 
+The Glasskube theme is published as an NPM package. 
 To add it to you your project:
 
-1. Add the GitHub package registry to your projects `.npmrc` file (for more details, please consult the [official documentation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package))
-2. Install `@glasskube/theme` using your preferred node package manager
-3. Import the theme into your project (see [Usage](#usage))
+1. Install `@glasskube/theme` using your preferred node package manager
+2. Import the theme into your project (see [Usage](#usage))
 
 ## Usage
 
