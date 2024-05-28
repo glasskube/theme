@@ -48,6 +48,6 @@
     "defaultIgnores": false
   },
   "volta": {
-    "node": "20.13.1"
+    "node": "20.14.0"
   }
 }
