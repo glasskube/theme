@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.2](https://github.com/glasskube/theme/compare/v0.1.1...v0.1.2) (2024-08-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fontsource/inter to v5.0.19 ([9e5c6b1](https://github.com/glasskube/theme/commit/9e5c6b113fa457285f2065d9fc30a4214727ea27))
+* **deps:** update dependency @fontsource/inter to v5.0.20 ([36c656e](https://github.com/glasskube/theme/commit/36c656e894123260a5d48d5d037d4a9e9fa3b4b1))
+* **deps:** update dependency @fontsource/poppins to v5.0.13 ([a4d5fac](https://github.com/glasskube/theme/commit/a4d5fac04e84ddb6bf3719b27bac576e281db633))
+* **deps:** update fontsource monorepo ([a2f6550](https://github.com/glasskube/theme/commit/a2f65508bd0fe67492a4bb90b271a58c8028b6a7))
+* **deps:** update fontsource monorepo ([f729823](https://github.com/glasskube/theme/commit/f729823588cb6f84e6257eaefcab6718e83dc1f3))
+
 ## [0.1.1](https://github.com/glasskube/theme/compare/v0.1.0...v0.1.1) (2024-02-29)
 
 
