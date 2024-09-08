@@ -22,8 +22,8 @@
   },
   "sass": "index.scss",
   "dependencies": {
-    "@fontsource/inter": "5.0.20",
-    "@fontsource/poppins": "5.0.15",
+    "@fontsource/inter": "5.0.21",
+    "@fontsource/poppins": "5.0.16",
     "bootstrap": "5.3.3"
   },
   "devDependencies": {
