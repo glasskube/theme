@@ -27,8 +27,8 @@
     "bootstrap": "5.3.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.4.1",
-    "@commitlint/config-conventional": "19.4.1",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
     "bootstrap-icons": "1.11.3",
     "esbuild": "0.23.1",
     "prettier": "3.3.3",
