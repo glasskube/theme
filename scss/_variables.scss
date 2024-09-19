@@ -46,6 +46,13 @@ $body-tertiary-bg-dark: $gk-surface-dark;
 $body-color: $gk-fg-light;
 $body-color-dark: $gk-fg-dark;
 
+$input-bg: var(--bs-secondary-bg);
+$input-disabled-bg: var(--bs-body-bg);
+$input-disabled-color: var(--bs-tertiary-color);
+
+$form-select-disabled-color: $input-disabled-color;
+$form-select-disabled-bg: $input-disabled-bg;
+
 $min-contrast-ratio: 2;
 
 $font-family-base: $font-family-main;

@@ -659,7 +659,17 @@ https://getbootstrap.com/docs/5.3/examples/
       <div class="px-3 py-2 border-bottom mb-3">
         <div class="container d-flex flex-wrap justify-content-center">
           <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            <input type="search" class="form-control mb-1" placeholder="Search..." aria-label="Search">
+            <input type="text" class="form-control mb-1" placeholder="">
+            <input type="text" disabled class="form-control mb-1" value="Disabled Text">
+            <select class="form-select mb-1">
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
+            <select class="form-select mb-1" disabled>
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
           </form>
 
           <div class="text-end">
