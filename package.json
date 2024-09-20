@@ -32,7 +32,7 @@
     "bootstrap-icons": "1.11.3",
     "esbuild": "0.23.1",
     "prettier": "3.3.3",
-    "sass": "1.79.1"
+    "sass": "1.79.3"
   },
   "commitlint": {
     "extends": [
