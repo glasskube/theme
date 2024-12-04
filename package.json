@@ -31,7 +31,7 @@
     "@commitlint/config-conventional": "19.6.0",
     "bootstrap-icons": "1.11.3",
     "esbuild": "0.24.0",
-    "prettier": "3.4.1",
+    "prettier": "3.4.2",
     "sass": "1.82.0"
   },
   "commitlint": {
