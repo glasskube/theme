@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/glasskube/theme/compare/v0.1.2...v0.1.3) (2025-02-14)
+
+
+### Bug Fixes
+
+* **deps:** update fontsource monorepo to v5.1.1 ([508dac3](https://github.com/glasskube/theme/commit/508dac333ca9369aa056e1d2394c6347affd4bf5))
+
 ## [0.1.2](https://github.com/glasskube/theme/compare/v0.1.1...v0.1.2) (2024-09-19)
 
 
