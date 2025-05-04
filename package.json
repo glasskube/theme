@@ -23,7 +23,7 @@
   "sass": "index.scss",
   "dependencies": {
     "@fontsource/inter": "5.2.5",
-    "@fontsource/poppins": "5.2.5",
+    "@fontsource/poppins": "5.2.6",
     "bootstrap": "5.3.5"
   },
   "devDependencies": {
