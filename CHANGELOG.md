@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.3](https://github.com/glasskube/theme/compare/v0.1.2...v0.1.3) (2025-08-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fontsource/inter to v5.2.6 ([#160](https://github.com/glasskube/theme/issues/160)) ([4682781](https://github.com/glasskube/theme/commit/468278151affab40df13e8e11ebf81ffade1a73e))
+* **deps:** update dependency @fontsource/poppins to v5.2.6 ([#151](https://github.com/glasskube/theme/issues/151)) ([f1aa796](https://github.com/glasskube/theme/commit/f1aa796d6144b01db92846bd2d17d2330b9a8f01))
+* **deps:** update dependency bootstrap to v5.3.4 ([#144](https://github.com/glasskube/theme/issues/144)) ([8612652](https://github.com/glasskube/theme/commit/86126521b0240f8b98285ae345d342285b41a7e2))
+* **deps:** update dependency bootstrap to v5.3.5 ([#146](https://github.com/glasskube/theme/issues/146)) ([95a7249](https://github.com/glasskube/theme/commit/95a724965841c616267feb7da953219bcc9dcec7))
+* **deps:** update dependency bootstrap to v5.3.6 ([#152](https://github.com/glasskube/theme/issues/152)) ([ee7786b](https://github.com/glasskube/theme/commit/ee7786b87e5b899909d12022e7fb874a913a5168))
+* **deps:** update dependency bootstrap to v5.3.7 ([#162](https://github.com/glasskube/theme/issues/162)) ([da8fed7](https://github.com/glasskube/theme/commit/da8fed717c990e3675a1471a4dbecb1c8309a6c8))
+* **deps:** update fontsource monorepo to v5.1.1 ([508dac3](https://github.com/glasskube/theme/commit/508dac333ca9369aa056e1d2394c6347affd4bf5))
+* **deps:** update fontsource monorepo to v5.2.5 ([#132](https://github.com/glasskube/theme/issues/132)) ([ca8579a](https://github.com/glasskube/theme/commit/ca8579a5573a8cfacdb29f5d03fb47bc7bfe752d))
+
 ## [0.1.2](https://github.com/glasskube/theme/compare/v0.1.1...v0.1.2) (2024-09-19)
 
 
