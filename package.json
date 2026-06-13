@@ -30,7 +30,7 @@
     "@commitlint/cli": "21.0.2",
     "@commitlint/config-conventional": "21.0.2",
     "bootstrap-icons": "1.13.1",
-    "esbuild": "0.28.0",
+    "esbuild": "0.28.1",
     "prettier": "3.8.3",
     "sass": "1.100.0"
   },
